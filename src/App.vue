@@ -14,9 +14,9 @@
 
   type VehiclesArrayInterface = {
     id: number,
-    driverName: string
     vehicleFeatures: [
       {
+        driverName: string
         licencePlate: string,
         manufacturer: string,
         acquisitionDate: string,
@@ -25,7 +25,6 @@
         dateNextInspection: string,
       }
     ],
-    time: Date
   }
 
   type vehicleFeatures = {
@@ -59,12 +58,12 @@
     methods: {
       // Set session storage
       setSessionStorage(): void {
-        // Set time when vehicles array is storage, with 30 minutes plus.
-        const time = new Date();
-        time.setMinutes((time.getMinutes() + 30));
+        // Set time with 30 minutes plus.
+        const currentDate = new Date();
+        const timePlus30Minutes = new Date(currentDate.getTime() + (30*60*1000));
 
         // Push new proprety to vehicles array.
-        this.vehicles.push(time);
+        this.vehicles.push(timePlus30Minutes);
 
         // Parse and save vehicles array on sessionStorage.
         const vehiclesParsed = JSON.stringify(this.vehicles);
@@ -73,15 +72,12 @@
       // Set a time interval to watch if the sessionStorage as expired.
       setTimeInterval(): void {
         const watchInterval = 15*60*1000;
-        setInterval(() =>{ this.watchIfSessionStorageAsExpired(); }, watchInterval );
+        setInterval(() =>{ this.watchIfSessionStorageAsExpired(); }, 1000);
       },
       // Watch if session as expired.
       watchIfSessionStorageAsExpired(): void {
         const vehiclesParsed = JSON.parse(sessionStorage.getItem('vehicles'));
-        // If moment time is greater 30 minutes plus than where vehicles array where store in sessionStorage
-        // we remove the array from local storage.
-        // console.log('avé', vehiclesParsed[50] < new Date())
-        if (vehiclesParsed[50] < new Date()) {
+        if (vehiclesParsed[50].timePlus30Minutes < new Date()) {
           localStorage.removeItem("vehicles");
           this.setSessionStorage();
         }
@@ -92,10 +88,15 @@
           this.filteredVehicles = this.vehicles.filter((vehicle: { vehicleFeatures: vehicleFeatures[]; }) => {
             if(vehicle.vehicleFeatures) {
               return vehicle.vehicleFeatures
-              .map(vehicleFeatures => vehicleFeatures.odometer)
-              .find(featureOdometer => {
-                return checkedValues.find((odometerOption: number) => {
-                  return featureOdometer >= odometerOption;
+              .map(vehicleFeatures => vehicleFeatures)
+              .find(vehicleFeature => {
+                return checkedValues.find((checkedValue: any) => {
+                  switch(checkedValue.type) {
+                    case 'asInsurance':
+                      return vehicleFeature.hasInsurance
+                    case 'odometer':
+                      return vehicleFeature.odometer >= checkedValue.value;
+                  }
                 });
               });
             }

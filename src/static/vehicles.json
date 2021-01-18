@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "driverName": "Hugo Seleiro",
+    "driverName": null,
     "vehicleFeatures": [
       {
         "licencePlate": "35-54-87",
@@ -21,7 +21,7 @@
         "licencePlate": "11-87-77",
         "manufacturer": "Renault",
         "acquisitionDate": "09-11-1999",
-        "odometer": 150.000,
+        "odometer": 50.000,
         "hasInsurance": true,
         "dateNextInspection": "10-11-2020"
       }
@@ -683,8 +683,7 @@
         "hasInsurance": false,
         "dateNextInspection": "22-10-2021"
       }
-    ],
-    "time": ""
+    ]
   },
   {
     "id": 50,
@@ -698,8 +697,8 @@
         "hasInsurance": false,
         "dateNextInspection": "22-10-2021"
       }
-    ],
-    "time": ""
+    ]
   }
 ]
+
 

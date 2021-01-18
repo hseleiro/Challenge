@@ -27,15 +27,22 @@
             return {
                 showVehicles : false,
                 odometerOptions: [
-                    { name: "> 75.000Km", value: 75.000, checked: false },
-                    { name: ">= 130.000Km", value: 130.000, checked: false },
-                    { name: ">= 250.000Km", value: 250.000, checked: false },
+                    {type: "odometer", name: "> 75.000Km", value: 75.000, checked: false },
+                    {type: "odometer", name: ">= 130.000Km", value: 130.000, checked: false },
+                    {type: "odometer", name: ">= 250.000Km", value: 250.000, checked: false },
+                    {type: "asInsurance", name: "As insurance", value: true, checked: false }
                 ]
             }
         },
         methods: {
+            // Emit value and type of options to be filtered
             onFilterOdometer() {
-                this.$emit('filter-option',this.odometerOptions.filter((opt) => opt.checked).map(opt => opt.value));
+                this.$emit('filter-option',this.odometerOptions.filter((opt) => opt.checked).map((opt) => {
+                    return {
+                        value: opt.value,
+                        type: opt.type
+                    }
+                }));
                 this.showVehicles = !this.showVehicles;
             },
 
