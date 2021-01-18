@@ -7,9 +7,9 @@
             <div class="option" v-for="option in odometerOptions">
                 <label>
                     <input type="checkbox"
-                           name="options"
+                           class="checkboxOptions"
                            v-model="option.checked"
-                           @change="onFilterOdometer"/>
+                           @change="onFilterOdometer()"/>
                     <span class="option-name">{{option.name}}</span>
                 </label>
             </div>

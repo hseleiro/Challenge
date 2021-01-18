@@ -27,7 +27,12 @@
     ],
   }
 
-  type vehicleFeatures = {
+  type checkedCategoryInterface = {
+    value: number,
+    type: string
+  }
+
+  type vehicleFeaturesInterface = {
     licencePlate: string,
     manufacturer: string,
     acquisitionDate: string,
@@ -64,6 +69,7 @@
 
         // Push new proprety to vehicles array.
         this.vehicles.push(timePlus30Minutes);
+        console.log('this.vehicles', this.vehicles);
 
         // Parse and save vehicles array on sessionStorage.
         const vehiclesParsed = JSON.stringify(this.vehicles);
@@ -77,20 +83,20 @@
       // Watch if session as expired.
       watchIfSessionStorageAsExpired(): void {
         const vehiclesParsed = JSON.parse(sessionStorage.getItem('vehicles'));
-        if (vehiclesParsed[50].timePlus30Minutes < new Date()) {
+        if (vehiclesParsed[50] < new Date()) {
           localStorage.removeItem("vehicles");
           this.setSessionStorage();
         }
       },
       // Filter category options.
-      filterOptions(checkedValues: number[]): void {
+      filterOptions(checkedValues: checkedCategoryInterface[]): void {
         if(checkedValues && this.vehicles.length) {
-          this.filteredVehicles = this.vehicles.filter((vehicle: { vehicleFeatures: vehicleFeatures[]; }) => {
+          this.filteredVehicles = this.vehicles.filter((vehicle: { vehicleFeatures: vehicleFeaturesInterface[]; }) => {
             if(vehicle.vehicleFeatures) {
               return vehicle.vehicleFeatures
               .map(vehicleFeatures => vehicleFeatures)
               .find(vehicleFeature => {
-                return checkedValues.find((checkedValue: any) => {
+                return checkedValues.find((checkedValue: checkedCategoryInterface) => {
                   switch(checkedValue.type) {
                     case 'asInsurance':
                       return vehicleFeature.hasInsurance
