@@ -1,0 +1,705 @@
+[
+  {
+    "id": 1,
+    "driverName": "Hugo Seleiro",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "35-54-87",
+        "manufacturer": "Fiat",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 100.000,
+        "hasInsurance": false,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "driverName": "Carlos Pedros",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "11-87-77",
+        "manufacturer": "Renault",
+        "acquisitionDate": "09-11-1999",
+        "odometer": 150.000,
+        "hasInsurance": true,
+        "dateNextInspection": "10-11-2020"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "driverName": "Maria Armanda",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "77-01-11",
+        "manufacturer": "Seat",
+        "acquisitionDate": "11-01-2000",
+        "odometer": 800.000,
+        "hasInsurance": true,
+        "dateNextInspection": "21-11-2008"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "driverName": "João Ferreira",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "11-09-11",
+        "manufacturer": "Renault",
+        "acquisitionDate": "11-07-2005",
+        "odometer": 300.000,
+        "hasInsurance": false,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "driverName": "Ana Maria",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "78-58-13",
+        "manufacturer": "Fiat",
+        "acquisitionDate": "11-07-2001",
+        "odometer": 130.000,
+        "hasInsurance": true,
+        "dateNextInspection": "02-12-2021"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "driverName": "António Bandas",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "11-09-37",
+        "manufacturer": "Honda",
+        "acquisitionDate": "11-02-1994",
+        "odometer": 130.000,
+        "hasInsurance": false,
+        "dateNextInspection": "02-11-2021"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "driverName": "Ricardo Salgado",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "11-99-01'",
+        "manufacturer": "Fiat",
+        "acquisitionDate": "12-11-2001",
+        "odometer": 750.000,
+        "hasInsurance": true,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "driverName": "José António",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "99-99-87",
+        "manufacturer": "Ford",
+        "acquisitionDate": "03-01-2004",
+        "odometer": 5.000,
+        "hasInsurance": true,
+        "dateNextInspection": "18-05-2021"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "driverName": "Manuel Carvalho",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "11-90-55",
+        "manufacturer": "Mercedes",
+        "acquisitionDate": "12-01-2000",
+        "odometer": 900.000,
+        "hasInsurance": true,
+        "dateNextInspection": "21-18-2022"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "driverName": "Antónia Silva",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "11-98-10",
+        "manufacturer": "Fiat",
+        "acquisitionDate": "01-11-2002",
+        "odometer": 175.000,
+        "hasInsurance": true,
+        "dateNextInspection": "28-03-2021"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "driverName": "Pedro Gomes",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "11-14-00",
+        "manufacturer": "Kia",
+        "acquisitionDate": "13-01-2001",
+        "odometer": 180.000,
+        "hasInsurance": true,
+        "dateNextInspection": "08-09-2021"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "driverName": "Eduardo Rodrigues",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "88-77-52",
+        "manufacturer": "Renault",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 10.000,
+        "hasInsurance": true,
+        "dateNextInspection": "12-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "driverName": "Mafalda Pereira",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "15-51-65",
+        "manufacturer": "Mercedes",
+        "acquisitionDate": "04-07-2000",
+        "odometer": 100.000,
+        "hasInsurance": false,
+        "dateNextInspection": "12-11-2022"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "driverName": "Mario Machado",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "66-66-90",
+        "manufacturer": "Dacia",
+        "acquisitionDate": "10-10-2004",
+        "odometer": 200.000,
+        "hasInsurance": false,
+        "dateNextInspection": "12-12-2022"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "driverName": "Carlos Zeferino",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "55-55-84",
+        "manufacturer": "Kia",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 100.000,
+        "hasInsurance": true,
+        "dateNextInspection": "09-11-2023"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "driverName": "Fernanda Barata",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "15-17-07",
+        "manufacturer": "Volvo",
+        "acquisitionDate": "11-11-2000",
+        "odometer": 10.000,
+        "hasInsurance": false,
+        "dateNextInspection": "55-64-2024"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "driverName": "Gonçalo Ferreiro",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "34-78-11",
+        "manufacturer": "Ferrari",
+        "acquisitionDate": "17-07-1998",
+        "odometer": 1000.000,
+        "hasInsurance": true,
+        "dateNextInspection": "21-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "driverName": "Amilcar Carvalho",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "15-14-27",
+        "manufacturer": "Fiat",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 190.000,
+        "hasInsurance": true,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "driverName": "Anacleto Ventura",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "51-89-11",
+        "manufacturer": "Renault",
+        "acquisitionDate": "01-11-2004",
+        "odometer": 310.000,
+        "hasInsurance": false,
+        "dateNextInspection": "07-02-2022"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "driverName": "Hugo Carvalho",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "15-45-07",
+        "manufacturer": "Renault",
+        "acquisitionDate": "01-01-2018",
+        "odometer": 600.000,
+        "hasInsurance": false,
+        "dateNextInspection": "11-05-2024"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "driverName": "Pedro Alvito",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "15-51-81",
+        "manufacturer": "Ford",
+        "acquisitionDate": "27-12-2007",
+        "odometer": 400.000,
+        "hasInsurance": false,
+        "dateNextInspection": "04-03-2022"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "driverName": "Armanda da Silva",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "05-04-07",
+        "manufacturer": "Fiat",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 170.000,
+        "hasInsurance": true,
+        "dateNextInspection": "11-10-2022"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "driverName": "Xavier Santos",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "25-13-87",
+        "manufacturer": "Fiat",
+        "acquisitionDate": "02-12-2004",
+        "odometer": 180.000,
+        "hasInsurance": false,
+        "dateNextInspection": "22-10-2024"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "driverName": "Diogo Fininho",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "85-54-99",
+        "manufacturer": "Dodge",
+        "acquisitionDate": "16-12-2019",
+        "odometer": 350.000,
+        "hasInsurance": false,
+        "dateNextInspection": "22-10-2022"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "driverName": "Catarina Almeida",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "88-44-36",
+        "manufacturer": "Ford",
+        "acquisitionDate": "12-12-2001",
+        "odometer": 100.000,
+        "hasInsurance": true,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "driverName": "Manuel Pinho",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "35-54-87",
+        "manufacturer": "Ford",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 910.000,
+        "hasInsurance": false,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "driverName": "Julio Silva",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "35-54-87",
+        "manufacturer": "Mercedes",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 500.000,
+        "hasInsurance": false,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "driverName": "Armado da Gama",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "15-14-87",
+        "manufacturer": "Mercedes",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 10.000,
+        "hasInsurance": true,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "driverName": "Carlos Rio",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "35-54-87",
+        "manufacturer": "Fiat",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 800.000,
+        "hasInsurance": false,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "driverName": "Rui Fernandes",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "15-14-87",
+        "manufacturer": "Honda",
+        "acquisitionDate": "12-12-2001",
+        "odometer": 10.000,
+        "hasInsurance": true,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "driverName": "Ana Seleiro",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "35-54-87",
+        "manufacturer": "Renault",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 1000.000,
+        "hasInsurance": true,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "driverName": "João Adeus",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "35-54-87",
+        "manufacturer": "Ferrari",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 895.000,
+        "hasInsurance": true,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "driverName": "Filipe Santos",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "35-54-87",
+        "manufacturer": "Fiat",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 10.000,
+        "hasInsurance": true,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "driverName": "Hugo Catarino",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "35-54-87",
+        "manufacturer": "Fiat",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 10.000,
+        "hasInsurance": false,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "driverName": "José Oliveira",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "35-54-87",
+        "manufacturer": "Mercedes",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 100.000,
+        "hasInsurance": true,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "driverName": "Filipa Aguas",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "11-14-17",
+        "manufacturer": "Nissan",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 70.000,
+        "hasInsurance": false,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "driverName": "Manuel Maria",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "85-88-66",
+        "manufacturer": "Fiat",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 941.000,
+        "hasInsurance": true,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "driverName": "Carlos Algarve",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "35-54-87",
+        "manufacturer": "Fiat",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 100.000,
+        "hasInsurance": false,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "driverName": "Justino Maria",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "15-94-99",
+        "manufacturer": "Fiat",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 10.000,
+        "hasInsurance": false,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "driverName": "Carlos Bigodes",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "11-88-03",
+        "manufacturer": "Mercedes",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 110.000,
+        "hasInsurance": false,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "driverName": "Alexandra Carvalho",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "35-54-87",
+        "manufacturer": "Renault",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 1088.000,
+        "hasInsurance": false,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "driverName": "Anacleto Castanho",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "35-54-87",
+        "manufacturer": "Fiat",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 10.000,
+        "hasInsurance": false,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "driverName": "Jacinto Peres",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "35-54-87",
+        "manufacturer": "Fiat",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 100.000,
+        "hasInsurance": true,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "driverName": "Constatino Madeira",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "35-54-87",
+        "manufacturer": "Honda",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 160.000,
+        "hasInsurance": true,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "driverName": "Armando Nunes",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "35-54-87",
+        "manufacturer": "Fiat",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 10.000,
+        "hasInsurance": false,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "driverName": "António Almeida",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "95-99-99",
+        "manufacturer": "Kia",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 100.000,
+        "hasInsurance": false,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "driverName": "Amelia Prazeres",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "35-54-87",
+        "manufacturer": "Fiat",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 180.000,
+        "hasInsurance": false,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "driverName": "José Seleiro",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "35-54-87",
+        "manufacturer": "Fiat",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 76.000,
+        "hasInsurance": false,
+        "dateNextInspection": "22-10-2021"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "driverName": "Joana Lopes",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "15-14-87",
+        "manufacturer": "Fiat",
+        "acquisitionDate": "11-11-2001",
+        "odometer": 633.000,
+        "hasInsurance": false,
+        "dateNextInspection": "22-10-2021"
+      }
+    ],
+    "time": ""
+  },
+  {
+    "id": 50,
+    "driverName": "Afonso Pedra",
+    "vehicleFeatures": [
+      {
+        "licencePlate": "35-54-87",
+        "manufacturer": "Ferrari",
+        "acquisitionDate": "12-12-2004",
+        "odometer": 100.000,
+        "hasInsurance": false,
+        "dateNextInspection": "22-10-2021"
+      }
+    ],
+    "time": ""
+  }
+]
+
